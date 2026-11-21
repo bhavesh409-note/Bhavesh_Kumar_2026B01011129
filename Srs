@@ -1,0 +1,123 @@
+Software Requirements Specification (SRS)
+Employee Data Cleaning with Pandas
+Author: Bhavesh Kumar | Roll No. 2026B01011129 | Course: Data Analyst
+Version 1.0 | 21 November 2026
+1. Introduction
+1.1 Purpose
+This document specifies the requirements for the Employee Data Cleaning project. The project is a Google Colab notebook that loads a messy employee dataset, explores it, finds data quality problems and cleans them using only the pandas library. It is written for the course instructor, the examiner and the author.
+1.2 Scope
+The project takes one raw CSV file, employee_data_messy.csv, and produces one cleaned CSV file, employee_data_clean.csv. It covers data loading, exploration, missing value handling, text standardisation, type conversion, outlier handling and duplicate removal. It does not cover statistical analysis, visualisation or machine learning.
+1.3 Definitions and Abbreviations
+•	SRS: Software Requirements Specification.
+•	DataFrame: The pandas table structure that holds the data in memory.
+•	NaN: The marker pandas uses for a missing value.
+•	Median: The middle value of a sorted column. It is not affected by outliers.
+•	Outlier: A value that is far outside the normal range, such as an age of 250.
+•	Colab: Google Colaboratory, a cloud notebook environment.
+1.4 References
+•	pandas documentation: https://pandas.pydata.org/docs/
+•	Google Colab: https://colab.research.google.com
+•	Project repository: https://github.com/bhavesh409-note/Bhavesh_Kumar_2026B01011129
+2. Overall Description
+2.1 Product Perspective
+The project is a standalone, notebook-based data cleaning workflow. It is the first stage of a data analysis pipeline: its output is meant to feed later analysis and visualisation work.
+2.2 Product Functions
+•	Load the raw CSV file into a DataFrame.
+•	Explore the data structure, types, summary statistics, missing values and duplicates.
+•	Select rows and columns with loc and iloc.
+•	Clean the data: fix text, convert types, handle impossible values, fill missing values, drop unneeded columns and remove duplicates.
+•	Verify the result and save the cleaned data to a new CSV file.
+2.3 User Characteristics
+The user is a data analyst student with basic Python and pandas knowledge. No advanced statistics or programming skill is needed to run the notebook.
+2.4 Operating Environment
+•	Platform: Google Colab (browser based, no installation).
+•	Language: Python 3.
+•	Library: pandas.
+•	Input and output format: CSV.
+2.5 Constraints
+•	Only pandas is used for the cleaning. No other data cleaning library is allowed.
+•	Only commands taught in the course are used.
+•	Colab cannot read files from a local drive such as C:\, so the file is uploaded with files.upload() or read from Google Drive.
+•	Files uploaded to Colab are deleted when the runtime resets.
+2.6 Assumptions and Dependencies
+•	The input file is a valid CSV with a header row.
+•	The user has a Google account and an internet connection.
+•	Column names in the input file do not change.
+3. Input Data Description
+The raw file employee_data_messy.csv has 103 rows and 9 columns.
+•	Emp_ID: Employee identifier (integer).
+•	Name: Employee name (text).
+•	Age: Age in years (numeric).
+•	City: City of work (text).
+•	Department: Department name (text).
+•	Salary: Salary (text in the raw file).
+•	Email: Email address (text).
+•	Join_Date: Joining date (text).
+•	Rating: Performance rating (numeric).
+3.1 Known Data Quality Problems
+•	Missing values in Age (9), Salary (6), Email (5) and Rating (11).
+•	Impossible ages: -5 and 250.
+•	One impossible salary of 9,999,999 where all others are between 25,000 and 120,000.
+•	Salary stored as text, for example Rs. 93000.
+•	Inconsistent capital letters and extra spaces in Name, Department and City. For example HR and hr, or Mumbai, MUMBAI and Jaipur  (with a trailing space). City has 18 spellings for 8 real cities.
+•	Mixed date formats in Join_Date.
+•	3 fully duplicated rows.
+4. Specific Requirements
+4.1 Functional Requirements
+Loading
+•	FR-1: The system shall load the raw CSV file into a pandas DataFrame using pd.read_csv().
+Exploration
+•	FR-2: The system shall display sample rows using head(), tail() and sample().
+•	FR-3: The system shall display the shape, column names and data types using shape, columns, dtypes and info().
+•	FR-4: The system shall display summary statistics using describe() and describe(include='all').
+•	FR-5: The system shall display category counts and unique values using value_counts() and unique().
+•	FR-6: The system shall count missing values with isna().sum() and duplicate rows with duplicated().sum().
+•	FR-7: The system shall select columns by name and rows with loc and iloc.
+Cleaning
+•	FR-8: The system shall drop the Rating and Join_Date columns using drop(columns=[...]).
+•	FR-9: The system shall remove extra spaces and standardise capital letters in Name, Department and City using str.strip() and str.title(). It shall write HR and IT in capitals.
+•	FR-10: The system shall convert Email to lower case.
+•	FR-11: The system shall remove the Rs. prefix and commas from Salary and convert it to a number using pd.to_numeric().
+•	FR-12: The system shall mark ages below 18 or above 65 as missing, and salaries above 1,000,000 as missing.
+•	FR-13: The system shall fill missing Age and Salary with the column median using fillna().
+•	FR-14: The system shall fill missing Email with the text not_available.
+•	FR-15: The system shall remove duplicate rows with drop_duplicates(keep='first') and assign the result back to the DataFrame.
+Verification and Output
+•	FR-16: The system shall verify that no missing values and no duplicate rows remain.
+•	FR-17: The system shall save the cleaned DataFrame to employee_data_clean.csv using to_csv(index=False).
+4.2 Non-Functional Requirements
+•	NFR-1 Usability: Each step shall be in its own notebook cell with a short comment, so a beginner can follow it.
+•	NFR-2 Reproducibility: Running all cells in order on the same input shall always give the same output.
+•	NFR-3 Performance: The whole notebook shall run in under one minute for a dataset of about 100 rows.
+•	NFR-4 Portability: The notebook shall run in Google Colab with no installation.
+•	NFR-5 Maintainability: Cleaning shall use only standard pandas methods so it is easy to read and extend.
+•	NFR-6 Data safety: The original raw file shall not be changed. The cleaned data shall be saved as a separate file.
+4.3 External Interface Requirements
+•	User interface: Colab notebook cells and their printed output.
+•	File interface: input employee_data_messy.csv, output employee_data_clean.csv, both in CSV format.
+•	Software interface: Python 3 and pandas.
+5. Output Specification
+The cleaned file employee_data_clean.csv shall have:
+•	100 rows and 7 columns: Emp_ID, Name, Age, City, Department, Salary, Email.
+•	No missing values and no duplicate rows.
+•	Five clean Department values: HR, Finance, Sales, IT and Marketing.
+•	Eight clean City values.
+•	Age between 22 and 58 and Salary between 25,000 and 120,000.
+•	Salary as a numeric column.
+6. Acceptance Criteria
+•	df.isna().sum().sum() returns 0.
+•	df.duplicated().sum() returns 0.
+•	df.shape returns (100, 7).
+•	df['Department'].nunique() returns 5 and df['City'].nunique() returns 8.
+•	df['Salary'].dtype is numeric.
+•	employee_data_clean.csv exists and opens with the expected columns.
+7. Risks and Limitations
+•	Filling with the median adds estimated values, not real ones. Many missing values would weaken later analysis.
+•	Dropping Rating and Join_Date loses that information. Join_Date could be kept by converting it with pd.to_datetime().
+•	The age range of 18 to 65 and the salary limit of 1,000,000 are chosen by the author and are assumptions about this dataset.
+•	Uploaded files disappear when the Colab runtime resets, so the upload cell must be run again.
+8. Future Enhancements
+•	Convert Join_Date to a datetime column instead of dropping it.
+•	Visualise the cleaned data with matplotlib or seaborn.
+•	Add automatic checks that confirm the acceptance criteria.
+•	Package the cleaning steps into a reusable function.
