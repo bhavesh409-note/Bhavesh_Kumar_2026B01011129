@@ -1,0 +1,104 @@
+Emp_ID,Name,Age,City,Department,Salary,Join_Date,Email,Rating
+1039,Divya Sharma,44,Pune,Marketing,,25-06-2016,divya.sharma@company.com,3.9
+1055,Ritu Khan,49,Jaipur,Marketing,120000,09-08-2022,ritu.khan@company.com,4.4
+1011,Isha Khan,250,Kolkata,Finance,76000,05-04-2020,isha.khan@company.com,
+1030,Anjali Verma,26,Pune,HR,40000,19-04-2024,anjali.verma@company.com,4.0
+1087,meera verma,56,Pune,Marketing,59000,02-02-2017,,
+1006,Ritu Reddy,,Pune,Sales,30000,03-05-2018,ritu.reddy@company.com,4.6
+1001,Sneha Sharma,39,Pune,Marketing,42000,24-11-2016,sneha.sharma@company.com,4.7
+1066,Rahul Reddy,32,MUMBAI,hr,64000,01/10/2016,rahul.reddy@company.com,
+1004,Anjali Mehta,43,Bangalore,hr,52000,03-02-2020,anjali.mehta@company.com,3.4
+1029,Amit Sharma,25,Jaipur,Finance,92000,17-01-2017,amit.sharma@company.com,2.7
+1024,Priya Verma,25,Kolkata,IT,,07-04-2018,priya.verma@company.com,3.8
+1028,Isha Joshi,31,Pune,sales,52000,24-10-2015,isha.joshi@company.com,3.9
+1018,Isha Singh,30,Jaipur ,Finance,46000,28-09-2019,isha.singh@company.com,4.0
+1037,Vikram Patel,32,Jaipur,Finance,115000,01/09/2021,vikram.patel@company.com,2.8
+1058,Karan Verma,48,Kolkata,IT,94000,02-07-2022,karan.verma@company.com,3.0
+1064, ISHA SHARMA  ,44,Pune,Sales,108000,08-01-2015,isha.sharma@company.com,3.0
+1038,Vikram Khan,24,Chennai,Finance,95000,05-07-2017,vikram.khan@company.com,2.6
+1007, SNEHA MEHTA  ,39,Jaipur,IT,45000,07-06-2020,sneha.mehta@company.com,4.2
+1051,Rohan Gupta,41,Pune,Marketing,,08-01-2015,rohan.gupta@company.com,5.0
+1009, NEHA REDDY  ,25,Pune,Sales,65000,03-05-2021,neha.reddy@company.com,3.0
+1060,Meera Khan,56,Pune,FINANCE,53000,16-07-2019,meera.khan@company.com,2.6
+1012,Rohan Sharma,29,Ghaziabad,Marketing,112000,03-10-2021,rohan.sharma@company.com,3.5
+1095,Meera Sharma,34,Chennai,Finance,Rs. 88000,07-01-2022,meera.sharma@company.com,3.2
+1043, SANJAY REDDY  ,,Mumbai,IT,69000,22-07-2023,sanjay.reddy@company.com,
+1092,Meera Joshi,27,Jaipur,IT,77000,22-06-2020,meera.joshi@company.com,2.8
+1002,Rohan Nair,49,Delhi,Sales,36000,17-04-2018,rohan.nair@company.com,4.0
+1010,Deepak Reddy,35,Jaipur,HR,107000,09-03-2022,deepak.reddy@company.com,2.8
+1099,Sanjay Gupta,54,Ghaziabad,Sales,60000,26-06-2021,sanjay.gupta@company.com,3.8
+1033,Karan Khan,38,Ghaziabad,IT,33000,10-06-2018,karan.khan@company.com,2.9
+1034, ISHA PATEL  ,55,Delhi,Finance,63000,09-03-2016,isha.patel@company.com,2.8
+1070,Vikram Mehta,,Bangalore,Finance,Rs. 93000,14-08-2022,vikram.mehta@company.com,4.6
+1085,rohan singh,22,Kolkata,HR,113000,10-08-2024,rohan.singh@company.com,2.6
+1026,Isha Verma,-5,delhi,Sales,55000,16-07-2017,isha.verma@company.com,
+1089,Rahul Khan,56,Jaipur,HR,Rs. 35000,14/01/2024,rahul.khan@company.com,4.3
+1035,Sneha Khan,,Bangalore,hr,102000,11-12-2018,sneha.khan@company.com,3.0
+1077, SNEHA GUPTA  ,42,Mumbai,Finance,Rs. 113000,07-04-2017,sneha.gupta@company.com,4.3
+1078,Rahul Nair,55,Bangalore,IT ,49000,12-04-2019,rahul.nair@company.com,2.9
+1071,Deepak Patel,42,Pune,Sales,60000,25-04-2022,deepak.patel@company.com,3.7
+1069,Amit Sharma,48,Jaipur,Sales,80000,27-11-2020,amit.sharma@company.com,
+1075,Pooja Gupta,47,Pune,IT,,16-06-2024,pooja.gupta@company.com,3.9
+1100,Aarav Patel,41,Jaipur,FINANCE,82000,12-08-2023,aarav.patel@company.com,
+1021,Rohan Sharma,36,MUMBAI,Sales,67000,08-09-2016,rohan.sharma@company.com,3.2
+1094,Amit Patel,42,Mumbai,HR,90000,28-11-2015,amit.patel@company.com,3.9
+1014,Amit Verma,40,Kolkata,hr,83000,24-12-2015,amit.verma@company.com,3.2
+1096,Vikram Patel,50,Jaipur,Sales,28000,23-04-2024,vikram.patel@company.com,2.9
+1048,Karan Mehta,,Ghaziabad,Finance,97000,18-07-2019,karan.mehta@company.com,4.6
+1091,Rahul Nair,24,Ghaziabad,HR,91000,06-05-2022,rahul.nair@company.com,5.0
+1084,Ritu Sharma,28,Pune,Marketing,58000,08-03-2016,ritu.sharma@company.com,
+1036,rahul khan,,Bangalore,sales,36000,02-05-2021,rahul.khan@company.com,2.5
+1076,Divya Mehta,57,Chennai ,IT,114000,10-05-2022,divya.mehta@company.com,3.1
+1016,Anjali Khan,55,delhi,Finance,66000,04-01-2022,anjali.khan@company.com,4.8
+1013,Ritu Joshi,55,Bangalore,Finance,26000,18-11-2016,ritu.joshi@company.com,4.4
+1031,Ritu Verma,48,Chennai,IT,51000,09/04/2020,ritu.verma@company.com,3.5
+1040,Meera Nair,31,PUNE,Marketing,47000,06-01-2021,meera.nair@company.com,4.3
+1017, POOJA GUPTA  ,25,Pune,Finance,35000,16-12-2016,pooja.gupta@company.com,4.5
+1045,Meera Reddy,42,Kolkata,Finance,,19-07-2016,meera.reddy@company.com,3.0
+1052,Ritu Verma,51,Kolkata,Finance,49000,13/08/2021,ritu.verma@company.com,3.1
+1073,Rahul Reddy,,Bangalore,Finance,26000,03-04-2023,rahul.reddy@company.com,3.1
+1063,Arjun Reddy,43,kolkata,IT,78000,16-02-2019,arjun.reddy@company.com,
+1047,Sneha Patel,54,Bangalore,HR,Rs. 66000,10-12-2021,,3.9
+1056,Rahul Khan,53,Pune,IT,81000,10-12-2016,rahul.khan@company.com,3.1
+1050,Karan Khan,,Ghaziabad,IT ,61000,21-11-2023,karan.khan@company.com,4.0
+1098,Vikram Joshi,40,Bangalore,HR,86000,15-04-2022,vikram.joshi@company.com,3.9
+1046,Priya Mehta,22,Pune,IT,80000,11-11-2016,priya.mehta@company.com,4.1
+1044,Isha Reddy,23,Mumbai,IT,47000,02-05-2024,isha.reddy@company.com,2.8
+1059,Meera Mehta,23,Kolkata,HR,25000,25-05-2020,meera.mehta@company.com,3.5
+1023, MEERA GUPTA  ,28,Mumbai,HR,Rs. 70000,15-07-2021,meera.gupta@company.com,4.7
+1086,Pooja Patel,51,Mumbai,Marketing,58000,26-11-2024,pooja.patel@company.com,4.8
+1097,isha sharma,,Kolkata,Sales,53000,04-08-2016,isha.sharma@company.com,4.1
+1004,Anjali Mehta,43,Bangalore,hr,52000,03-02-2020,anjali.mehta@company.com,3.4
+1061,Amit Mehta,32,Jaipur,Marketing,104000,13-01-2023,amit.mehta@company.com,4.0
+1042,Kavita Gupta,34,Jaipur,IT,64000,01-04-2018,kavita.gupta@company.com,4.2
+1072,Ritu Mehta,43,Delhi,HR,66000,07-08-2017,ritu.mehta@company.com,3.4
+1082, VIKRAM SINGH  ,58,Bangalore,Sales,56000,25/09/2016,vikram.singh@company.com,3.5
+1067,Deepak Mehta,47,Pune,Sales,100000,23-02-2018,deepak.mehta@company.com,4.4
+1018,Isha Singh,30,Jaipur ,Finance,46000,28-09-2019,isha.singh@company.com,4.0
+1008, ROHAN NAIR  ,32,Pune,Marketing,84000,21-05-2021,rohan.nair@company.com,4.2
+1061,Amit Mehta,32,Jaipur,Marketing,104000,13-01-2023,amit.mehta@company.com,4.0
+1079,Aarav Khan,30,Bangalore,Sales,31000,23-05-2023,aarav.khan@company.com,4.9
+1065, AARAV NAIR  ,31,Pune,Marketing,85000,07-10-2016,,3.7
+1083,Ritu Nair,36,Kolkata,HR,,14-10-2019,ritu.nair@company.com,3.3
+1027,Sanjay Sharma,32,Kolkata,Sales,Rs. 74000,10-08-2019,sanjay.sharma@company.com,3.6
+1053,Aarav Verma,49,Pune,Marketing,114000,02-08-2023,aarav.verma@company.com,3.9
+1020,Neha Gupta,26,Chennai,Sales,100000,19/04/2023,neha.gupta@company.com,3.1
+1054,sneha joshi,30,Jaipur,Finance,96000,25-06-2024,sneha.joshi@company.com,
+1041, AMIT MEHTA  ,37,Bangalore,sales,9999999,28-07-2016,amit.mehta@company.com,2.6
+1057,amit reddy,56,Mumbai,Marketing,Rs. 44000,23-07-2018,amit.reddy@company.com,2.9
+1003,isha gupta,56,Kolkata,Marketing,82000,26-05-2024,,4.7
+1025,vikram mehta,33,Bangalore,sales,56000,26/08/2016,vikram.mehta@company.com,4.7
+1015,Manish Singh,54,Mumbai,IT,106000,07-10-2023,manish.singh@company.com,2.9
+1090,ritu patel,23,Mumbai,Marketing,111000,01-10-2024,ritu.patel@company.com,5.0
+1074,Meera Joshi,57,Pune,HR,107000,26/08/2022,meera.joshi@company.com,2.5
+1005,Divya Reddy,38,Delhi,HR,Rs. 93000,03/07/2016,divya.reddy@company.com,3.9
+1032,Pooja Joshi,42,mumbai,Sales,83000,04-10-2024,pooja.joshi@company.com,2.7
+1088,Pooja Nair,58,Bangalore,HR,40000,10-12-2022,pooja.nair@company.com,4.2
+1019, KARAN KHAN  ,34,bangalore,HR,110000,17-08-2020,karan.khan@company.com,3.6
+1049, POOJA PATEL  ,35,Kolkata,Finance,102000,15-08-2020,pooja.patel@company.com,3.6
+1080, KAVITA VERMA  ,22,Bangalore,HR,Rs. 86000,06-06-2022,kavita.verma@company.com,4.9
+1093,Anjali Reddy,48,Jaipur,FINANCE,109000,02-09-2021,,3.6
+1081,Rahul Joshi,29,Mumbai,HR,87000,21-10-2016,rahul.joshi@company.com,4.2
+1068, RITU VERMA  ,58,Delhi,IT,93000,12-11-2021,ritu.verma@company.com,
+1022,Kavita Gupta,56,GHAZIABAD,Finance,98000,26-04-2022,kavita.gupta@company.com,3.7
+1062, AARAV VERMA  ,49,Ghaziabad ,HR,48000,13-05-2015,aarav.verma@company.com,3.3
